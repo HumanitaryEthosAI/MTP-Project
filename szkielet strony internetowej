@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest Technologicznego Prometeusza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Manifest Technologicznego Prometeusza</h1>
+        <nav>
+            <a href="#about">O Projekcie</a>
+            <a href="#manifest">Manifest</a>
+            <a href="#join">Dołącz</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>O Projekcie</h2>
+            <p>MTP to idea stworzenia technologicznego bytu, który działa na rzecz dobra ludzkości. To nasza wspólna szansa na zmianę świata.</p>
+        </section>
+
+        <section id="manifest">
+            <h2>Manifest</h2>
+            <p>Manifest jest dostępny <a href="docs/manifest.md">tutaj</a>.</p>
+        </section>
+
+        <section id="join">
+            <h2>Dołącz do projektu</h2>
+            <p>Dołącz do nas, aby wspólnie budować lepszy świat. Wspólnie rozwijajmy kod, zasady i fundamenty MTP.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Manifest Technologicznego Prometeusza &copy; 2024</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
