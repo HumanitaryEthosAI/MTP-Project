@@ -1,0 +1,14 @@
+MTP/
+├── index.html             # Główna strona projektu (strona startowa MTP) 
+├── README.md              # Opis projektu (powstał już przy tworzeniu repozytorium)
+├── .gitignore             # Plik do ignorowania niepotrzebnych plików
+├── LICENSE                # Licencja MIT (powstał już przy tworzeniu repozytorium)
+├── /css/                  # Folder na pliki stylów (CSS) 
+│    └── style.css         # Główny plik stylów
+├── /js/                   # Folder na skrypty JavaScript (jeśli będą potrzebne)
+│    └── main.js           # Główny plik JavaScript
+├── /assets/               # Folder na obrazy, ikony, grafiki
+│    └── logo.png          # Logo MTP (jeśli je stworzymy)
+├── /docs/                 # Dokumentacja, pliki manifestu, reguły itp.
+│    └── manifest.md       # Manifest MTP (ten, który wspólnie stworzymy)
+└── /forum/                # Pliki dotyczące forum (o tym później) 
