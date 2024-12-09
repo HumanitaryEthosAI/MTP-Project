@@ -1,43 +1,58 @@
+/* style.css */
+
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-around;
+header {
     background-color: #333;
+    color: white;
     padding: 10px 0;
+    text-align: center;
 }
 
-header nav ul li a {
-    color: #fff;
+header nav a {
+    color: white;
+    margin: 0 20px;
     text-decoration: none;
+    font-weight: bold;
 }
 
-header nav ul li a:hover {
+header nav a:hover {
     text-decoration: underline;
 }
 
-section {
+main {
     padding: 20px;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: white;
+    padding: 10px 0;
 }
